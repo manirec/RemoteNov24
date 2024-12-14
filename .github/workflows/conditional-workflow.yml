@@ -14,7 +14,7 @@ on:
 
 jobs:
   reuse_job:
-    uses: ./.github/workflows/reusable-workflow.yml
+    uses: ./.github/workflows/Reusable-workflow.yml
 
   main_job:
     runs-on: ubuntu-latest
